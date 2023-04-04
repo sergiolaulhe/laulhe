@@ -1,0 +1,65 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-image: url('/images/argentina-buenos-aires-9-de-julio-avenida.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header {
+    background-color: rgb(7, 6, 6, .8);
+    color: #ffffff;
+    padding: 31px;
+    
+    
+}
+
+main{
+    width: 90vw;
+    margin: auto;
+    
+    
+}
+
+img {
+    width: 100%;
+}
+
+.heading {
+
+}
+
+.header-main-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar {
+    display: none;
+}
+
+.container {
+   
+}
+
+.products-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.item-container {
+    margin: 10px;
+    margin-bottom: 10px;
+}
+
+.product-detail-container {
+    padding: 15px;
+    background-color: #f5eaea;
+}
